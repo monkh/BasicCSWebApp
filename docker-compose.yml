@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  basiccswebapp:
+    image: basiccswebapp
+    build:
+      context: .\BasicCSWebApp
+      dockerfile: Dockerfile
